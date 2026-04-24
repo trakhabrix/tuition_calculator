@@ -18,7 +18,7 @@ elif choice_educ == 2:
     discount_rate = 0.10
 else:
     print('Invalid Choice')
-
+#Calculation
 print ('\n========== Tuition Calculation ==========')
 total = 0
 def add_subjects (sub1,sub2,sub3,sub4,sub5,sub6):
@@ -49,8 +49,5 @@ def discount_formula(total):
     print (f'Final Computation:{13 * ' '}₱{total} - ₱{discount} ')
     print (f'Final Total:{19 * ' '}₱{final_total}')
     
-
-
 total = add_subjects(7000, 8000, 8000, 8000, 4000, 2000)
 discount_formula(total)
-
